@@ -1,0 +1,343 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+.left-section {
+  height: 60%;
+  background: #2d2d2d;
+  float: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2,
+h3,
+a {
+  color: #34495e;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0;
+  position: relative;
+  padding-left:50px ;
+}
+
+/* .logo a, */
+.main-nav{
+  /* padding-left: 10px; */
+  margin-left: 550px;
+  /* padding: 10px 15px; */
+  padding-top:10px ;
+  text-transform: uppercase;
+  text-align: center;
+  /* border:2px white; */
+}
+
+.b1,.b2{
+  display:inline-block;
+  text-align: center;
+  padding-top: 10px;
+  border:2px #222;
+  font-size: 14px;
+  color: black;
+}
+
+.main-nav a {
+  color: black;
+  font-size: 20;
+  /* font-style:bold; */
+
+}
+
+.main-nav a:hover {
+  color: rgb(11, 11, 165);
+}
+
+.header {
+  /* padding-top: 0.5em;
+  padding-bottom: 0.5em; */
+  /* border: 1px solid #5cdbe2; */
+  /* background-color: #74cff0; */
+  /* -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; */
+  /* padding-left:550px; */
+  /* height: 50px; */
+  float: right;
+  width:60%;
+}
+
+@media (min-width: 769px) {
+  .header,
+  .main-nav {
+    
+    display: flex;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+[class*="fontawesome-"]:before {
+  font-family: "FontAwesome", sans-serif;
+}
+
+html {
+  font: 0.625em/1.4 "Lato", Helvetica Neue, sans;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin:0px;
+  line-height: 18px;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* text-rendering: optimizelegibility; */
+  background: #ebeef0;
+  background-image: url("https://www.itnewsafrica.com/wp-content/uploads/2021/07/Health.jpg")  ; 
+  /* background-image: url("profile.jpg") ; */
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 1100px 700px;
+
+ 
+  
+}
+
+#wrapper {
+  /* background-image: url("BGpic.jpg"); */
+  /* background-image: url("https://media.istockphoto.com/id/1446229465/photo/red-heart-and-stethoscope-are-on-blue-background.jpg?b=1&s=170667a&w=0&k=20&c=1-aE7XV24f8qVr8fGnpvypir8fSxYaM9sHZurKoutj8=")  ; */
+  width: 100%;
+  /* min-width: 00px; */
+  height: 100%;
+  /* margin: auto; */
+  /* overflow: auto; */
+}
+
+.right-section {
+  display: block;
+  width: 100%;
+  position: relative;
+  width: calc(100% - 300px);
+  float: left;
+  /* background-image: url("istockphoto-1446229465-170667a.jpg"); */
+
+}
+
+.nav {
+  
+  background: #343F4F;
+  padding: 0px;
+  margin: 0px;
+  width: 250px;
+  overflow: hidden;
+  list-style: none;
+  box-shadow: none repeat scroll 0% 0% #2b3136;
+  box-sizing: border-box;
+}
+.qt{
+  text-align: left;
+  /* margin: 23%; */
+  margin-left: 8% ;
+  margin-top: 14%;
+  color:rgb(61, 32, 121);
+  position: relative;
+  box-sizing: border-box;
+  font-size: 45px;
+  font-family:Verdana;
+  /* font-style: italic; */
+  float: center;
+  line-height: 80px;
+
+}
+.menu-item {
+  text-decoration: none;
+  padding: 25px 25px;
+  width: 250px;
+  display: block;
+  font-size: 1.2em;
+  color: white;
+  -webkit-transition-duration: 0.15s; /* Safari */
+  transition-duration: 0.15s;
+}
+
+.ftm {
+  margin-right: 10px;
+}
+
+.fa-icon-lg {
+  font-size: 400%;
+  display: block;
+  margin: 5px 0px 30px 35px;
+}
+
+.menu-item:hover {
+  background: #272c30;
+  color: #fff;
+  border-left: 3px solid #50b7e0;
+}
+
+.arrow {
+  float: right;
+}
+
+.logo {
+  /* padding: 20px 0px 20px 20px; */
+  border-bottom: 1px solid #222; 
+  /* background-color: black; */
+}
+
+#top {
+  top: 0px;
+  width: 100%;
+  background: #fff;
+  padding: 15px 25px;
+  height: 50px;
+  margin-right: 0px;
+  line-height: 50px;
+}
+
+#name {
+  margin: 0px;
+  color: #50b7e0;
+}
+
+#top-left {
+  float: left;
+}
+
+#top-right {
+  float: right;
+}
+
+.DashBoard {
+  color: white;
+  height:100%;
+  width:40%;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  text-align: center;
+  /* padding-left: 65px; */
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 400px;
+  /*width: calc(100% - 50px);*/
+  margin-top: 275px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  /* align:center; */
+  padding-left: 25px;
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(50, 50, 50, 0.26);
+  -moz-box-shadow:    2px 2px 8px 0px rgba(50, 50, 50, 0.26);
+  box-shadow:         2px 2px 8px 0px rgba(50, 50, 50, 0.26);
+  float: left;
+
+
+}
+
+.bt_1{
+  margin: 10px 10px 10px 10px;
+}
+/*
+.bn1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  margin-left: 5px;
+} */
+
+.bn1 {
+  align-items: center;
+  border-color: transparent;
+  background-color: #fff;
+  justify-content: center;
+  color: rgb(23, 2, 106);
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  padding: 5px;
+  
+}
+  
+/* .bn1:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+} */
+/* .bn2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  backface-visibility: hidden;
+  border: 0.3rem solid transparent;
+  border-radius: 3rem;
+  margin-right: 10px;
+  margin-top: auto;
+}
+
+.bn2 {
+  border-color: transparent;
+  background-color: #fff;
+  color: #000;
+  transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
+}
+  
+.bn2:hover {
+  transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+} */
+
+.prfpic{
+  height: 33px;
+  width: 35px;
+  border-radius: 50%;
+  /* margin: 10px; */
+  /* margin-right: 10px; */
+  margin-left: 5px;
+  /* margin-top: auto; */
+}
+
