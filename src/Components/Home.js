@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import ".//css/index.css";
+import "./css/home.css";
 export default function Home() {
     return (
-        
+       <body class='homebody'>
       <div>
-        <img id="logo" src="https://genpactonline.sharepoint.com/sites/Pacers-Team2/Shared%20Documents/General/logo3.png" alt="Italian Trulli"/>
+        {/* <img id="logo" src="https://genpactonline.sharepoint.com/sites/Pacers-Team2/Shared%20Documents/General/logo3.png" alt="Italian Trulli"/> */}
         <div class="wrapper">
           <div class="static-txt">We</div>
             <ul class="dynamic-txts">
@@ -15,8 +15,8 @@ export default function Home() {
               <li><span>Help!</span></li>
             </ul>
           </div>
-          <button id="vertical-center1"><Link id="b1" to="/patient_login_page"><span style={{"color":"black"}}><i class="fa-solid fa-user"></i> Patient</span></Link></button>
-          <button id="vertical-center2"><Link id="b2" to="/DoctorLoginPage"><span style={{"color":"black"}}><i class="fa-solid fa-user"></i> Doctor</span></Link></button>
+          <button id="vertical-center1"><Link id="b1" to="/PatientLogin"><span style={{"color":"black"}}><i class="fa-solid fa-user"></i> Patient</span></Link></button>
+          <button id="vertical-center2"><Link id="b2" to="/DoctorLogin"><span style={{"color":"black"}}><i class="fa-solid fa-user"></i> Doctor</span></Link></button>
           <div class="welcome">
         Welcome To<br/><span style={{"fontSize":"100px"}}>Gen</span><span style={{"color":"#2AC9C9", "fontWeight": "700","fontSize":"100px"}}>Health</span>
           </div>
@@ -85,7 +85,7 @@ export default function Home() {
       </footer>
     </div>
     </div>
-    
+    </body> 
     );
 }
 

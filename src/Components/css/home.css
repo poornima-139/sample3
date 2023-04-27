@@ -6,7 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
+.homebody {
    /* background-image: url('example_img_girl.jpg');  */
   background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@ body {
 #vertical-center1:hover{
   color:black;
 }
-body{
+.homebody{
   display: flex;
   background: linear-gradient(to bottom, #343F4F 0%, #343F4F 17%, white 19%, white 100%);
   /* background: linear-gradient(to bottom, #343F4F 100%, #343F4F 150%, white 150%, white 200%); */
@@ -48,7 +48,7 @@ body{
 }
 .wrapper .static-txt{
     margin-top: 35px;
-    margin-left: 35px;
+    margin-left: 175px;
     color: #fff;
     font-size: 60px;
     font-weight: 400;
@@ -133,11 +133,6 @@ border-radius: 50%;
 margin: 0 10px;
 
  }
-
-
-
-
-
 
 /* .container { 
   height: 200px;
@@ -331,7 +326,7 @@ margin: 0 10px;
 
 
 @media only screen and (max-width:1200px){
-  body{
+  .homebody{
     display: flex;
     background: linear-gradient(to bottom, yellow 0%, yellow 15%, white 17%, white 100%);
   }
